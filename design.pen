@@ -9,7 +9,6 @@
       "name": "Esperidion Saquin — Portfolio Redesign",
       "clip": true,
       "width": 1440,
-      "height": 2380,
       "fill": "$paper",
       "layout": "vertical",
       "children": [
@@ -222,7 +221,7 @@
                   "fill": "#B7C2CB",
                   "textGrowth": "fixed-width",
                   "width": 560,
-                  "content": "I build quality and compliance systems that keep complex construction projects precise, accountable, and moving forward.",
+                  "content": "Results-oriented Civil Engineer with a proven track record of optimizing project quality outcomes. Skilled in strategic project management and team leadership. Seeking a challenging executive role to leverage technical expertise and drive engineering excellence.",
                   "lineHeight": 1.55,
                   "fontFamily": "$font-body",
                   "fontSize": 18,
@@ -367,9 +366,9 @@
               "name": "Hero Construction Image",
               "metadata": {
                 "type": "unsplash",
-                "username": "avesta1",
-                "link": "https://unsplash.com/@avesta1",
-                "author": "Avesta"
+                "username": "ranga19",
+                "link": "https://unsplash.com/@ranga19",
+                "author": "Ranga"
               },
               "clip": true,
               "width": "fill_container",
@@ -377,7 +376,7 @@
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "https://images.unsplash.com/photo-1759771611523-0cc0366b8333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxNDcxMTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "url": "https://images.unsplash.com/photo-1614569863448-530317e56770?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxNzk1NjB8&ixlib=rb-4.1.0&q=80&w=1080",
                 "mode": "fill"
               },
               "layout": "none",
@@ -410,11 +409,13 @@
                       "id": "qpd38",
                       "name": "Project Index Label",
                       "fill": "$orange",
-                      "content": "CURRENT ASSIGNMENT",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "CURRENT PROJECT  /  GENERAL CONSTRUCTION",
                       "fontFamily": "$font-body",
-                      "fontSize": 10,
+                      "fontSize": 8.5,
                       "fontWeight": "700",
-                      "letterSpacing": 1.2
+                      "letterSpacing": 0.8
                     },
                     {
                       "type": "text",
@@ -423,7 +424,7 @@
                       "fill": "$ink",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "GardenCourt Residences — Lima",
+                      "content": "Ayala Land Premier Project",
                       "fontFamily": "$font-display",
                       "fontSize": 15,
                       "fontWeight": "700"
@@ -433,231 +434,10 @@
                       "id": "QtObP",
                       "name": "Project Index Role",
                       "fill": "$muted",
-                      "content": "QAQC Engineer Associate  ·  2025",
+                      "content": "QAQC Engineer  ·  Jul 2025—Present",
                       "fontFamily": "$font-body",
                       "fontSize": 11,
                       "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "t5LbAQ",
-          "name": "Professional Snapshot",
-          "width": "fill_container",
-          "height": 220,
-          "fill": "$paper",
-          "gap": 32,
-          "padding": [
-            42,
-            72
-          ],
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "sN05D",
-              "name": "Snapshot Intro",
-              "width": 420,
-              "height": "fill_container",
-              "layout": "vertical",
-              "gap": 10,
-              "justifyContent": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "J5zvGO",
-                  "name": "Snapshot Label",
-                  "fill": "$orange",
-                  "content": "01  /  PROFILE",
-                  "fontFamily": "$font-body",
-                  "fontSize": 11,
-                  "fontWeight": "700",
-                  "letterSpacing": 1.4
-                },
-                {
-                  "type": "text",
-                  "id": "ppZ8s",
-                  "name": "Snapshot Heading",
-                  "fill": "$ink",
-                  "content": "Engineering confidence\nfrom plan to handover.",
-                  "lineHeight": 1.15,
-                  "fontFamily": "$font-display",
-                  "fontSize": 28,
-                  "fontWeight": "700"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "NlNKy",
-              "name": "Quick Facts Grid",
-              "width": "fill_container",
-              "height": "fill_container",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "QWpTh",
-                  "name": "ROLE Fact",
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "stroke": "$line",
-                  "strokeWidth": {
-                    "left": 1
-                  },
-                  "layout": "vertical",
-                  "gap": 12,
-                  "padding": [
-                    12,
-                    26
-                  ],
-                  "justifyContent": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "W3XHQ",
-                      "name": "ROLE Number",
-                      "fill": "$orange",
-                      "content": "01",
-                      "fontFamily": "$font-display",
-                      "fontSize": 11,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "D252h",
-                      "name": "ROLE Label",
-                      "fill": "$muted",
-                      "content": "ROLE",
-                      "fontFamily": "$font-body",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 1.2
-                    },
-                    {
-                      "type": "text",
-                      "id": "h1WY45",
-                      "name": "ROLE Value",
-                      "fill": "$ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "QAQC Engineer Associate",
-                      "lineHeight": 1.25,
-                      "fontFamily": "$font-display",
-                      "fontSize": 17,
-                      "fontWeight": "600"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "LPaGw",
-                  "name": "COMPANY Fact",
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "stroke": "$line",
-                  "strokeWidth": {
-                    "left": 1
-                  },
-                  "layout": "vertical",
-                  "gap": 12,
-                  "padding": [
-                    12,
-                    26
-                  ],
-                  "justifyContent": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "dflmf",
-                      "name": "COMPANY Number",
-                      "fill": "$orange",
-                      "content": "02",
-                      "fontFamily": "$font-display",
-                      "fontSize": 11,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "VYSzp",
-                      "name": "COMPANY Label",
-                      "fill": "$muted",
-                      "content": "COMPANY",
-                      "fontFamily": "$font-body",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 1.2
-                    },
-                    {
-                      "type": "text",
-                      "id": "tTzPk",
-                      "name": "COMPANY Value",
-                      "fill": "$ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Makati Development Corp",
-                      "lineHeight": 1.25,
-                      "fontFamily": "$font-display",
-                      "fontSize": 17,
-                      "fontWeight": "600"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "XAho7",
-                  "name": "CORE TOOL Fact",
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "stroke": "$line",
-                  "strokeWidth": {
-                    "left": 1
-                  },
-                  "layout": "vertical",
-                  "gap": 12,
-                  "padding": [
-                    12,
-                    26
-                  ],
-                  "justifyContent": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "q8NtA",
-                      "name": "CORE TOOL Number",
-                      "fill": "$orange",
-                      "content": "03",
-                      "fontFamily": "$font-display",
-                      "fontSize": 11,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "R3VV3",
-                      "name": "CORE TOOL Label",
-                      "fill": "$muted",
-                      "content": "CORE TOOL",
-                      "fontFamily": "$font-body",
-                      "fontSize": 10,
-                      "fontWeight": "700",
-                      "letterSpacing": 1.2
-                    },
-                    {
-                      "type": "text",
-                      "id": "zNyzq",
-                      "name": "CORE TOOL Value",
-                      "fill": "$ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Procore + MS Office",
-                      "lineHeight": 1.25,
-                      "fontFamily": "$font-display",
-                      "fontSize": 17,
-                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -710,24 +490,12 @@
                       "id": "J7uSn",
                       "name": "Projects Title",
                       "fill": "$ink",
-                      "content": "Built work, documented rigor.",
+                      "content": "Quality delivery in active construction.",
                       "fontFamily": "$font-display",
                       "fontSize": 36,
                       "fontWeight": "700"
                     }
                   ]
-                },
-                {
-                  "type": "text",
-                  "id": "N0GgJ8",
-                  "name": "Projects Note",
-                  "fill": "$muted",
-                  "content": "A focused record of quality systems, field coordination,\nand construction documentation.",
-                  "lineHeight": 1.5,
-                  "textAlign": "right",
-                  "fontFamily": "$font-body",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
                 }
               ]
             },
@@ -754,9 +522,9 @@
                       "name": "GardenCourt Project Image",
                       "metadata": {
                         "type": "unsplash",
-                        "username": "moazkhan",
-                        "link": "https://unsplash.com/@moazkhan",
-                        "author": "RM Photography"
+                        "username": "fotospk",
+                        "link": "https://unsplash.com/@fotospk",
+                        "author": "Fotos"
                       },
                       "clip": true,
                       "width": 360,
@@ -764,7 +532,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "https://images.unsplash.com/photo-1633937351327-2b7f1cd473f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxNDcxNDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "url": "https://images.unsplash.com/photo-1659353587560-e76e232bf37e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxNzk1MTd8&ixlib=rb-4.1.0&q=80&w=1080",
                         "mode": "fill"
                       },
                       "layout": "none",
@@ -815,7 +583,7 @@
                           "id": "e1qdh",
                           "name": "Project Type",
                           "fill": "$orange",
-                          "content": "RESIDENTIAL  /  LIMA, BATANGAS",
+                          "content": "GENERAL CONSTRUCTION  /  AYALA LAND PREMIER",
                           "fontFamily": "$font-body",
                           "fontSize": 10,
                           "fontWeight": "700",
@@ -826,10 +594,10 @@
                           "id": "QMFOD",
                           "name": "Project Name",
                           "fill": "$ink",
-                          "content": "GardenCourt\nResidences",
+                          "content": "ALP Project\nQuality Delivery",
                           "lineHeight": 1.05,
                           "fontFamily": "$font-display",
-                          "fontSize": 32,
+                          "fontSize": 30,
                           "fontWeight": "700"
                         },
                         {
@@ -839,7 +607,7 @@
                           "fill": "$muted",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Reviewed drawings and specifications, enforced the MDC Quality Management System, produced Procore reports, and monitored quality plan effectiveness.",
+                          "content": "Managing end-to-end inspections and final subcontractor handover across under-construction, façade, and fit-out scopes. Coordinates IPL/FCO requirements before CRG inspection and ensures complete Procore reports.",
                           "lineHeight": 1.55,
                           "fontFamily": "$font-body",
                           "fontSize": 13,
@@ -921,7 +689,7 @@
                                   "id": "vEOyP",
                                   "name": "REPORTING Tag Text",
                                   "fill": "$ink",
-                                  "content": "REPORTING",
+                                  "content": "CRG INSPECTION",
                                   "fontFamily": "$font-body",
                                   "fontSize": 9,
                                   "fontWeight": "700",
@@ -936,7 +704,7 @@
                           "id": "O3eMjL",
                           "name": "Project Link",
                           "fill": "$orange",
-                          "content": "VIEW PROJECT NOTES  →",
+                          "content": "CURRENT ROLE  ·  JUL 2025—PRESENT",
                           "fontFamily": "$font-body",
                           "fontSize": 11,
                           "fontWeight": "700",
@@ -970,9 +738,9 @@
                           "id": "u60zlp",
                           "name": "Additional Project Number",
                           "fill": "#FFFFFF20",
-                          "content": "02",
+                          "content": "QMS",
                           "fontFamily": "$font-display",
-                          "fontSize": 44,
+                          "fontSize": 40,
                           "fontWeight": "700"
                         },
                         {
@@ -980,7 +748,7 @@
                           "id": "zFVX6",
                           "name": "Additional Project Category",
                           "fill": "$orange",
-                          "content": "RESIDENTIAL  /  2024",
+                          "content": "MDC QUALITY SYSTEM  /  ACTIVE",
                           "fontFamily": "$font-body",
                           "fontSize": 10,
                           "fontWeight": "700",
@@ -991,7 +759,7 @@
                           "id": "o0rFw",
                           "name": "Additional Project Title",
                           "fill": "$white",
-                          "content": "Inspection &\nTesting Support",
+                          "content": "Quality Management\n& Coordination",
                           "lineHeight": 1.1,
                           "fontFamily": "$font-display",
                           "fontSize": 25,
@@ -1006,7 +774,7 @@
                       "fill": "#AEBAC4",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Field inspection, technical review, and quality documentation support across residential work packages.",
+                      "content": "Implements MDC policies, processes, procedures, guidelines, and bulletins; monitors the Project Quality Management Plan and recommends improvements. Coordinates Civil, Structural, Architectural, and MEPFS disciplines.",
                       "lineHeight": 1.55,
                       "fontFamily": "$font-body",
                       "fontSize": 13,
@@ -1023,11 +791,11 @@
           "id": "o6hfC9",
           "name": "Experience and Capabilities",
           "width": "fill_container",
-          "height": 560,
+          "height": 700,
           "fill": "$navy",
-          "gap": 64,
+          "gap": 56,
           "padding": [
-            54,
+            48,
             72
           ],
           "children": [
@@ -1035,10 +803,10 @@
               "type": "frame",
               "id": "Wb5OV",
               "name": "Experience Timeline",
-              "width": 720,
-              "height": "fill_container",
+              "width": 760,
+              "height": 566,
               "layout": "vertical",
-              "gap": 28,
+              "gap": 24,
               "children": [
                 {
                   "type": "text",
@@ -1059,7 +827,7 @@
                   "content": "On site. On spec.\nAlways accountable.",
                   "lineHeight": 1.08,
                   "fontFamily": "$font-display",
-                  "fontSize": 40,
+                  "fontSize": 38,
                   "fontWeight": "700"
                 },
                 {
@@ -1074,14 +842,14 @@
                       "id": "e4I3Nv",
                       "name": "MDC Role",
                       "width": "fill_container",
-                      "height": 142,
+                      "height": 150,
                       "stroke": "#FFFFFF26",
                       "strokeWidth": {
                         "top": 1
                       },
-                      "gap": 22,
+                      "gap": 18,
                       "padding": [
-                        22,
+                        20,
                         0
                       ],
                       "children": [
@@ -1089,7 +857,7 @@
                           "type": "frame",
                           "id": "Gj259",
                           "name": "Job Date",
-                          "width": 128,
+                          "width": 112,
                           "layout": "vertical",
                           "gap": 6,
                           "children": [
@@ -1120,7 +888,7 @@
                               "id": "IBMVW",
                               "name": "Job Role",
                               "fill": "$white",
-                              "content": "QAQC Engineer Associate",
+                              "content": "QAQC Engineer",
                               "fontFamily": "$font-display",
                               "fontSize": 21,
                               "fontWeight": "700"
@@ -1130,7 +898,7 @@
                               "id": "K8J9S",
                               "name": "Job Company",
                               "fill": "#92A0AB",
-                              "content": "Makati Development Corporation  ·  Makati, Philippines",
+                              "content": "Makati Development Corporation  ·  General Construction",
                               "fontFamily": "$font-body",
                               "fontSize": 12,
                               "fontWeight": "600"
@@ -1142,10 +910,92 @@
                               "fill": "#C0C9D0",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Implemented the MDC Quality Management System, monitored the Project Quality Management Plan, prepared reports, and reviewed technical drawings and specifications.",
+                              "content": "Currently assigned to an Ayala Land Premier project, supporting end-to-end quality inspection and subcontractor handover.",
                               "lineHeight": 1.5,
                               "fontFamily": "$font-body",
-                              "fontSize": 13,
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L8jiyt",
+                      "name": "SSI Metal QAQC Role",
+                      "width": "fill_container",
+                      "height": 150,
+                      "stroke": "#FFFFFF26",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 18,
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "panzC",
+                          "name": "SSI Role Date",
+                          "width": 112,
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "c174tw",
+                              "name": "SSI Date Range",
+                              "fill": "#F26B38",
+                              "content": "AUG 2023 —\nSEP 2024",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.8
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BB5vh",
+                          "name": "SSI Role Details",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ycdeA",
+                              "name": "SSI Role Title",
+                              "fill": "#FFFFFF",
+                              "content": "QAQC Engineer",
+                              "fontFamily": "$font-display",
+                              "fontSize": 21,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "k1FlP4",
+                              "name": "SSI Company",
+                              "fill": "#92A0AB",
+                              "content": "SSI Metal Incorporation  ·  Façade & Fit-out Subcontractor",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IasfM",
+                              "name": "SSI Role Summary",
+                              "fill": "#C0C9D0",
+                              "content": "Handled three projects across façade, fit-out, and MEPFS scopes.",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
                               "fontWeight": "normal"
                             }
                           ]
@@ -1157,15 +1007,15 @@
                       "id": "HY7eD",
                       "name": "Education Entry",
                       "width": "fill_container",
-                      "height": 100,
+                      "height": 90,
                       "stroke": "#FFFFFF26",
                       "strokeWidth": {
                         "top": 1,
                         "bottom": 1
                       },
-                      "gap": 22,
+                      "gap": 18,
                       "padding": [
-                        22,
+                        18,
                         0
                       ],
                       "children": [
@@ -1173,14 +1023,14 @@
                           "type": "frame",
                           "id": "FowdJ",
                           "name": "Education Date",
-                          "width": 128,
+                          "width": 112,
                           "children": [
                             {
                               "type": "text",
                               "id": "bC53c",
                               "name": "Education Year",
                               "fill": "$orange",
-                              "content": "EDUCATION",
+                              "content": "2023",
                               "fontFamily": "$font-body",
                               "fontSize": 11,
                               "fontWeight": "700",
@@ -1201,9 +1051,9 @@
                               "id": "kUQ5q",
                               "name": "Education Degree",
                               "fill": "$white",
-                              "content": "Civil Engineering",
+                              "content": "Bachelor of Science in Civil Engineering",
                               "fontFamily": "$font-display",
-                              "fontSize": 19,
+                              "fontSize": 21,
                               "fontWeight": "700"
                             },
                             {
@@ -1211,7 +1061,7 @@
                               "id": "u4Z1n",
                               "name": "Education Placeholder",
                               "fill": "#92A0AB",
-                              "content": "Degree details available in résumé",
+                              "content": "Eastern Visayas State University  ·  Graduated 2023",
                               "fontFamily": "$font-body",
                               "fontSize": 12,
                               "fontWeight": "normal"
@@ -1231,12 +1081,12 @@
               "width": "fill_container",
               "height": "fill_container",
               "layout": "vertical",
-              "gap": 24,
+              "gap": 18,
               "padding": [
-                10,
+                4,
                 0,
                 0,
-                20
+                16
               ],
               "children": [
                 {
@@ -1497,6 +1347,1064 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ynj5O",
+                  "name": "Tools and Workflow",
+                  "width": "fill_container",
+                  "stroke": "#FFFFFF26",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rzBAr",
+                      "name": "Tools and Workflow Label",
+                      "fill": "#F26B38",
+                      "content": "TOOLS & WORKFLOW",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n4cs4n",
+                      "name": "PROCORE and AUTOCAD and MS EXCEL",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "b1C1J",
+                          "name": "PROCORE Skill",
+                          "height": 32,
+                          "stroke": "#FFFFFF35",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "C3A0lV",
+                              "name": "PROCORE Skill Label",
+                              "fill": "#C5CED6",
+                              "content": "PROCORE",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Kf1se",
+                          "name": "AUTOCAD Skill",
+                          "height": 32,
+                          "stroke": "#FFFFFF35",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ppce7",
+                              "name": "AUTOCAD Skill Label",
+                              "fill": "#C5CED6",
+                              "content": "AUTOCAD",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N44AIy",
+                          "name": "MS EXCEL Skill",
+                          "height": 32,
+                          "stroke": "#FFFFFF35",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ndu6g",
+                              "name": "MS EXCEL Skill Label",
+                              "fill": "#C5CED6",
+                              "content": "MS EXCEL",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uZCaQ",
+                      "name": "REVIT · LEARNING and INSPECTION and REPORTING",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OsHOo",
+                          "name": "REVIT · LEARNING Skill",
+                          "height": 32,
+                          "stroke": "#FFFFFF35",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "AfKA2",
+                              "name": "REVIT · LEARNING Skill Label",
+                              "fill": "#C5CED6",
+                              "content": "REVIT · LEARNING",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "slN2R",
+                          "name": "INSPECTION Skill",
+                          "height": 32,
+                          "stroke": "#FFFFFF35",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SZBUU",
+                              "name": "INSPECTION Skill Label",
+                              "fill": "#C5CED6",
+                              "content": "INSPECTION",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "K1SjeV",
+                          "name": "REPORTING Skill",
+                          "height": 32,
+                          "stroke": "#FFFFFF35",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t1EUnh",
+                              "name": "REPORTING Skill Label",
+                              "fill": "#C5CED6",
+                              "content": "REPORTING",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y9yYCp",
+                  "name": "Project Scope Summary",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF0A",
+                  "stroke": "#FFFFFF1F",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 9,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PYJtv",
+                      "name": "Project Scope Label",
+                      "fill": "#F26B38",
+                      "content": "PROJECT EXPOSURE",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "i0jPC",
+                      "name": "Project Scope Value",
+                      "fill": "#FFFFFF",
+                      "content": "General Construction  ·  Façade\nFit-out  ·  Civil  ·  MEPFS",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KEUOu",
+          "name": "Training and Certifications",
+          "width": "fill_container",
+          "height": 620,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            48,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "dWXZB",
+              "name": "Training Section Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gC3po",
+                  "name": "Training Title Group",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wFeZK",
+                      "name": "Training Section Label",
+                      "fill": "#F26B38",
+                      "content": "04  /  PROFESSIONAL DEVELOPMENT",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "bq6Sq",
+                      "name": "Training Section Title",
+                      "fill": "#152536",
+                      "content": "Training & certifications",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 38,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gse36",
+              "name": "Certification Categories",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w3R8E",
+                  "name": "Procore Certifications",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#0B1623",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WfPnp",
+                      "name": "Procore Certifications Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cSYaQ",
+                          "name": "Procore Title Group",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "RVpy3",
+                              "name": "Procore Icon Box",
+                              "width": 42,
+                              "height": 42,
+                              "fill": "#F26B38",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "QGt4r",
+                                  "name": "Procore Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "blocks",
+                                  "library": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P6K81h",
+                              "name": "Procore Heading Text",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PEjaA",
+                                  "name": "Procore Category Label",
+                                  "fill": "#F26B38",
+                                  "content": "PROCORE LEARNING",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 9,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 1.2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NUc0O",
+                                  "name": "Procore Category Title",
+                                  "fill": "#FFFFFF",
+                                  "content": "Procore Certifications",
+                                  "fontFamily": "Space Grotesk",
+                                  "fontSize": 20,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "z7JWWU",
+                          "name": "Procore Count",
+                          "fill": "#FFFFFF2E",
+                          "content": "05",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UV0uD",
+                      "name": "Procore Certification List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HbPyF",
+                          "name": "BIM Manager",
+                          "width": "fill_container",
+                          "stroke": "#FFFFFF20",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "NmpXa",
+                              "name": "BIM Manager Check",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "badge-check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ujN6T",
+                              "name": "BIM Manager Text",
+                              "fill": "#D6DDE2",
+                              "content": "BIM Manager",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Z27gXk",
+                          "name": "Project Manager · Core Tools",
+                          "width": "fill_container",
+                          "stroke": "#FFFFFF20",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "vq8a8",
+                              "name": "Project Manager · Core Tools Check",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "badge-check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "X23jX",
+                              "name": "Project Manager · Core Tools Text",
+                              "fill": "#D6DDE2",
+                              "content": "Project Manager · Core Tools",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ecBeX",
+                          "name": "Engineer",
+                          "width": "fill_container",
+                          "stroke": "#FFFFFF20",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "KJtjJ",
+                              "name": "Engineer Check",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "badge-check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hI269",
+                              "name": "Engineer Text",
+                              "fill": "#D6DDE2",
+                              "content": "Engineer",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Tfto4",
+                          "name": "Project Manager · Preconstruction",
+                          "width": "fill_container",
+                          "stroke": "#FFFFFF20",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "VlMiC",
+                              "name": "Project Manager · Preconstruction Check",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "badge-check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zVZRy",
+                              "name": "Project Manager · Preconstruction Text",
+                              "fill": "#D6DDE2",
+                              "content": "Project Manager · Preconstruction",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DlpRu",
+                          "name": "Project Manager · Quality & Safety",
+                          "width": "fill_container",
+                          "stroke": "#FFFFFF20",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "B3BoJE",
+                              "name": "Project Manager · Quality & Safety Check",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "badge-check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "G9PqUH",
+                              "name": "Project Manager · Quality & Safety Text",
+                              "fill": "#D6DDE2",
+                              "content": "Project Manager · Quality & Safety",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hnbdE",
+                  "name": "BIM and Digital Tools",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#F4F1EA",
+                  "stroke": "#D9D5CC",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "V6RIAH",
+                      "name": "Digital Tools Header",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "H6lGi",
+                          "name": "Digital Tools Icon Box",
+                          "width": 42,
+                          "height": 42,
+                          "fill": "#152536",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "PWIo6",
+                              "name": "Digital Tools Icon",
+                              "width": 19,
+                              "height": 19,
+                              "icon": "drafting-compass",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pe29T",
+                          "name": "Digital Tools Heading Text",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zxidT",
+                              "name": "Digital Tools Label",
+                              "fill": "#F26B38",
+                              "content": "BIM & PRODUCTIVITY",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 1.2
+                            },
+                            {
+                              "type": "text",
+                              "id": "pTVpi",
+                              "name": "Digital Tools Title",
+                              "fill": "#152536",
+                              "content": "Digital Tools",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q232l",
+                      "name": "Digital Tools List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EJIsZ",
+                          "name": "Autodesk Revit Suite · Architectural & Structural BIM Modeling",
+                          "width": "fill_container",
+                          "stroke": "#D9D5CC",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            11,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "RXHLo",
+                              "name": "Autodesk Revit Suite · Architectural & Structural BIM Modeling Icon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KZeBC",
+                              "name": "Autodesk Revit Suite · Architectural & Structural BIM Modeling Text",
+                              "fill": "#394958",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Autodesk Revit Suite · Architectural & Structural BIM Modeling",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IBmyq",
+                          "name": "MS Excel, Word & PowerPoint",
+                          "width": "fill_container",
+                          "stroke": "#D9D5CC",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            11,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "zBBfx",
+                              "name": "MS Excel, Word & PowerPoint Icon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "gJ0vO",
+                              "name": "MS Excel, Word & PowerPoint Text",
+                              "fill": "#394958",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "MS Excel, Word & PowerPoint",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JqP3W",
+                          "name": "AutoCAD 2D",
+                          "width": "fill_container",
+                          "stroke": "#D9D5CC",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            11,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "oWSDL",
+                              "name": "AutoCAD 2D Icon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "H2xq7J",
+                              "name": "AutoCAD 2D Text",
+                              "fill": "#394958",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AutoCAD 2D",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jto6N",
+                          "name": "Revit 2026 · Structural & Architectural",
+                          "width": "fill_container",
+                          "stroke": "#D9D5CC",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            11,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "C7cprg",
+                              "name": "Revit 2026 · Structural & Architectural Icon",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "XBrv1",
+                              "name": "Revit 2026 · Structural & Architectural Text",
+                              "fill": "#394958",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Revit 2026 · Structural & Architectural",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y989J",
+                  "name": "Safety and Trade Credentials",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "#E9EEF1",
+                  "stroke": "#D9D5CC",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q9Q5Ln",
+                      "name": "Safety Credentials Header",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kF7c8",
+                          "name": "Safety Icon Box",
+                          "width": 42,
+                          "height": 42,
+                          "fill": "#F26B38",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "p46M4R",
+                              "name": "Safety Icon",
+                              "width": 19,
+                              "height": 19,
+                              "icon": "shield-check",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "F5iyE",
+                          "name": "Safety Heading Text",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "d0dKBK",
+                              "name": "Safety Category Label",
+                              "fill": "#F26B38",
+                              "content": "SAFETY & TRADE",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 1.2
+                            },
+                            {
+                              "type": "text",
+                              "id": "BEPd2",
+                              "name": "Safety Category Title",
+                              "fill": "#152536",
+                              "content": "Credentials",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JyOOn",
+                      "name": "Safety Credential List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KQu68",
+                          "name": "Certified BOSH Safety Officer 1",
+                          "width": "fill_container",
+                          "stroke": "#C8D0D5",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            14,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "IrYi3",
+                              "name": "Certified BOSH Safety Officer 1 Badge",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "award",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nppcv",
+                              "name": "Certified BOSH Safety Officer 1 Text",
+                              "fill": "#243746",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Certified BOSH Safety Officer 1",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "isjXj",
+                          "name": "National Certificate Holder · Plumbing NC1",
+                          "width": "fill_container",
+                          "stroke": "#C8D0D5",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            14,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Tz8sI",
+                              "name": "National Certificate Holder · Plumbing NC1 Badge",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "award",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QOUKo",
+                              "name": "National Certificate Holder · Plumbing NC1 Text",
+                              "fill": "#243746",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "National Certificate Holder · Plumbing NC1",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FNmnK",
+                          "name": "Certified COSH Safety Officer 2",
+                          "width": "fill_container",
+                          "stroke": "#C8D0D5",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "gap": 10,
+                          "padding": [
+                            14,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "V9ZIXY",
+                              "name": "Certified COSH Safety Officer 2 Badge",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "award",
+                              "library": "lucide",
+                              "fill": "#F26B38"
+                            },
+                            {
+                              "type": "text",
+                              "id": "JYW4d",
+                              "name": "Certified COSH Safety Officer 2 Text",
+                              "fill": "#243746",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Certified COSH Safety Officer 2",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -1508,7 +2416,7 @@
           "name": "Contact Footer",
           "width": "fill_container",
           "height": 260,
-          "fill": "$paper",
+          "fill": "#0B1623",
           "layout": "vertical",
           "children": [
             {
@@ -1517,6 +2425,7 @@
               "name": "Contact Main",
               "width": "fill_container",
               "height": 190,
+              "fill": "#0B1623",
               "padding": [
                 36,
                 72
@@ -1536,7 +2445,7 @@
                       "id": "mdrZ5",
                       "name": "Contact Label",
                       "fill": "$orange",
-                      "content": "04  /  LET’S BUILD SOMETHING BETTER",
+                      "content": "05  /  LET’S BUILD SOMETHING BETTER",
                       "fontFamily": "$font-body",
                       "fontSize": 11,
                       "fontWeight": "700",
@@ -1546,17 +2455,17 @@
                       "type": "text",
                       "id": "W2bfM",
                       "name": "Contact Heading",
-                      "fill": "$ink",
+                      "fill": "#FFFFFF",
                       "content": "Need an engineer who sweats the details?",
                       "fontFamily": "$font-display",
-                      "fontSize": 32,
+                      "fontSize": 34,
                       "fontWeight": "700"
                     },
                     {
                       "type": "text",
                       "id": "Bl8RB",
                       "name": "Contact Location",
-                      "fill": "$muted",
+                      "fill": "#9EABB5",
                       "content": "Based in Pasig City, Philippines  ·  Available for quality and project roles",
                       "fontFamily": "$font-body",
                       "fontSize": 13,
@@ -1608,7 +2517,7 @@
               "name": "Footer Bar",
               "width": "fill_container",
               "height": 70,
-              "stroke": "$line",
+              "stroke": "#FFFFFF26",
               "strokeWidth": {
                 "top": 1
               },
@@ -1623,7 +2532,7 @@
                   "type": "text",
                   "id": "VwBqB",
                   "name": "Copyright",
-                  "fill": "$muted",
+                  "fill": "#82909B",
                   "content": "© 2026 ESPERIDION SAQUIN",
                   "fontFamily": "$font-body",
                   "fontSize": 10,
@@ -1634,7 +2543,7 @@
                   "type": "text",
                   "id": "JpEhp",
                   "name": "Footer Motto",
-                  "fill": "$ink",
+                  "fill": "#C5CED6",
                   "content": "QUALITY  ·  COMPLIANCE  ·  DELIVERY",
                   "fontFamily": "$font-body",
                   "fontSize": 10,
