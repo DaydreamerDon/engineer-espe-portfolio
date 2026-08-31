@@ -1,0 +1,1694 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "k7B4Q",
+      "x": 880,
+      "y": 0,
+      "name": "Esperidion Saquin — Portfolio Redesign",
+      "clip": true,
+      "width": 1440,
+      "height": 2380,
+      "fill": "$paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "g7CB5W",
+          "name": "Navigation",
+          "width": "fill_container",
+          "height": 88,
+          "fill": "$navy",
+          "padding": [
+            0,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GnCoP",
+              "name": "Brand",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SREmK",
+                  "name": "ES Monogram",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "$orange",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fCGuP",
+                      "name": "Monogram Letters",
+                      "fill": "$white",
+                      "content": "ES",
+                      "fontFamily": "$font-display",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "M5jjj",
+                  "name": "Brand Name",
+                  "fill": "$white",
+                  "content": "ESPERIDION SAQUIN",
+                  "fontFamily": "$font-display",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZWPoM",
+              "name": "Navigation Links",
+              "gap": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fJHr0",
+                  "name": "ABOUT Link",
+                  "fill": "#C5CED6",
+                  "content": "ABOUT",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "A0rpXB",
+                  "name": "PROJECTS Link",
+                  "fill": "#C5CED6",
+                  "content": "PROJECTS",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "p4FksL",
+                  "name": "EXPERIENCE Link",
+                  "fill": "$orange",
+                  "content": "EXPERIENCE",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "h8h1T",
+                  "name": "CONTACT Link",
+                  "fill": "#C5CED6",
+                  "content": "CONTACT",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "frame",
+                  "id": "a71KZ",
+                  "name": "Resume Button",
+                  "height": 42,
+                  "stroke": "#FFFFFF44",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GfI6w",
+                      "name": "Resume Button Label",
+                      "fill": "$white",
+                      "content": "DOWNLOAD CV ↗",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZCMQA",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 672,
+          "fill": "$navy",
+          "children": [
+            {
+              "type": "frame",
+              "id": "UU64b",
+              "name": "Hero Content",
+              "width": 760,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 26,
+              "padding": [
+                72,
+                72,
+                64,
+                72
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NHtXL",
+                  "name": "Availability",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "k1tBjd",
+                      "name": "Orange Rule",
+                      "fill": "$orange",
+                      "width": 44,
+                      "height": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "hjoXC",
+                      "name": "Availability Text",
+                      "fill": "$orange",
+                      "content": "CIVIL ENGINEER  /  QAQC SPECIALIST",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "SThTV",
+                  "name": "Hero Headline",
+                  "fill": "$white",
+                  "content": "QUALITY BUILT\nINTO EVERY DETAIL.",
+                  "lineHeight": 1.02,
+                  "fontFamily": "$font-display",
+                  "fontSize": 64,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.8
+                },
+                {
+                  "type": "text",
+                  "id": "JzgyU",
+                  "name": "Hero Description",
+                  "fill": "#B7C2CB",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "I build quality and compliance systems that keep complex construction projects precise, accountable, and moving forward.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "iIPSD",
+                  "name": "Hero Actions",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GRKvZ",
+                      "name": "View Projects Button",
+                      "height": 52,
+                      "fill": "$orange",
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NfnpA",
+                          "name": "View Projects Label",
+                          "fill": "$white",
+                          "content": "VIEW SELECTED WORK  →",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SAMny",
+                      "name": "Email Button",
+                      "height": 52,
+                      "stroke": "#FFFFFF55",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        22
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "F7lWxR",
+                          "name": "Email Button Label",
+                          "fill": "$white",
+                          "content": "GET IN TOUCH",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y9s7y",
+                  "name": "Hero Metadata",
+                  "gap": 28,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "I3SGg",
+                      "name": "PASIG CITY, PHILIPPINES",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "n1Jma",
+                          "name": "PASIG CITY, PHILIPPINES Icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "map-pin",
+                          "library": "lucide",
+                          "fill": "#82909B"
+                        },
+                        {
+                          "type": "text",
+                          "id": "b6RG5",
+                          "name": "PASIG CITY, PHILIPPINES Text",
+                          "fill": "#82909B",
+                          "content": "PASIG CITY, PHILIPPINES",
+                          "fontFamily": "$font-body",
+                          "fontSize": 10,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.7
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K7oz52",
+                      "name": "OPEN TO OPPORTUNITIES",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xwZVr",
+                          "name": "OPEN TO OPPORTUNITIES Icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "briefcase-business",
+                          "library": "lucide",
+                          "fill": "#82909B"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OgFZq",
+                          "name": "OPEN TO OPPORTUNITIES Text",
+                          "fill": "#82909B",
+                          "content": "OPEN TO OPPORTUNITIES",
+                          "fontFamily": "$font-body",
+                          "fontSize": 10,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.7
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tPAa6",
+              "name": "Hero Construction Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "avesta1",
+                "link": "https://unsplash.com/@avesta1",
+                "author": "Avesta"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1759771611523-0cc0366b8333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxNDcxMTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "v6hnQi",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Image Navy Overlay",
+                  "fill": "#0B162355",
+                  "width": 680,
+                  "height": 672
+                },
+                {
+                  "type": "frame",
+                  "id": "fA5V3",
+                  "x": 48,
+                  "y": 502,
+                  "name": "Project Index",
+                  "width": 280,
+                  "height": 116,
+                  "fill": "#F4F1EAEF",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qpd38",
+                      "name": "Project Index Label",
+                      "fill": "$orange",
+                      "content": "CURRENT ASSIGNMENT",
+                      "fontFamily": "$font-body",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "V73g3",
+                      "name": "Project Index Name",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GardenCourt Residences — Lima",
+                      "fontFamily": "$font-display",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QtObP",
+                      "name": "Project Index Role",
+                      "fill": "$muted",
+                      "content": "QAQC Engineer Associate  ·  2025",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t5LbAQ",
+          "name": "Professional Snapshot",
+          "width": "fill_container",
+          "height": 220,
+          "fill": "$paper",
+          "gap": 32,
+          "padding": [
+            42,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sN05D",
+              "name": "Snapshot Intro",
+              "width": 420,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "J5zvGO",
+                  "name": "Snapshot Label",
+                  "fill": "$orange",
+                  "content": "01  /  PROFILE",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.4
+                },
+                {
+                  "type": "text",
+                  "id": "ppZ8s",
+                  "name": "Snapshot Heading",
+                  "fill": "$ink",
+                  "content": "Engineering confidence\nfrom plan to handover.",
+                  "lineHeight": 1.15,
+                  "fontFamily": "$font-display",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NlNKy",
+              "name": "Quick Facts Grid",
+              "width": "fill_container",
+              "height": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QWpTh",
+                  "name": "ROLE Fact",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    26
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "W3XHQ",
+                      "name": "ROLE Number",
+                      "fill": "$orange",
+                      "content": "01",
+                      "fontFamily": "$font-display",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D252h",
+                      "name": "ROLE Label",
+                      "fill": "$muted",
+                      "content": "ROLE",
+                      "fontFamily": "$font-body",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "h1WY45",
+                      "name": "ROLE Value",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "QAQC Engineer Associate",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-display",
+                      "fontSize": 17,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LPaGw",
+                  "name": "COMPANY Fact",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    26
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dflmf",
+                      "name": "COMPANY Number",
+                      "fill": "$orange",
+                      "content": "02",
+                      "fontFamily": "$font-display",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VYSzp",
+                      "name": "COMPANY Label",
+                      "fill": "$muted",
+                      "content": "COMPANY",
+                      "fontFamily": "$font-body",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "tTzPk",
+                      "name": "COMPANY Value",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Makati Development Corp",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-display",
+                      "fontSize": 17,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XAho7",
+                  "name": "CORE TOOL Fact",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    12,
+                    26
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q8NtA",
+                      "name": "CORE TOOL Number",
+                      "fill": "$orange",
+                      "content": "03",
+                      "fontFamily": "$font-display",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R3VV3",
+                      "name": "CORE TOOL Label",
+                      "fill": "$muted",
+                      "content": "CORE TOOL",
+                      "fontFamily": "$font-body",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "zNyzq",
+                      "name": "CORE TOOL Value",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Procore + MS Office",
+                      "lineHeight": 1.25,
+                      "fontFamily": "$font-display",
+                      "fontSize": 17,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IWFB9",
+          "name": "Selected Projects",
+          "width": "fill_container",
+          "height": 580,
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            52,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "p6XpI",
+              "name": "Projects Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bbe8L",
+                  "name": "Projects Title Group",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tmoik",
+                      "name": "Projects Label",
+                      "fill": "$orange",
+                      "content": "02  /  SELECTED WORK",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "J7uSn",
+                      "name": "Projects Title",
+                      "fill": "$ink",
+                      "content": "Built work, documented rigor.",
+                      "fontFamily": "$font-display",
+                      "fontSize": 36,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "N0GgJ8",
+                  "name": "Projects Note",
+                  "fill": "$muted",
+                  "content": "A focused record of quality systems, field coordination,\nand construction documentation.",
+                  "lineHeight": 1.5,
+                  "textAlign": "right",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cK0th",
+              "name": "Projects Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mNfxu",
+                  "name": "GardenCourt Featured Project",
+                  "width": 820,
+                  "height": "fill_container",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "z4HiJz",
+                      "name": "GardenCourt Project Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "moazkhan",
+                        "link": "https://unsplash.com/@moazkhan",
+                        "author": "RM Photography"
+                      },
+                      "clip": true,
+                      "width": 360,
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1633937351327-2b7f1cd473f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxNDcxNDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BwfHy",
+                          "x": 20,
+                          "y": 20,
+                          "name": "Featured Badge",
+                          "height": 30,
+                          "fill": "$orange",
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "a1MW3q",
+                              "name": "Featured Badge Text",
+                              "fill": "#FFFFFF",
+                              "content": "FEATURED",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MoGyf",
+                      "name": "GardenCourt Project Info",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 30,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e1qdh",
+                          "name": "Project Type",
+                          "fill": "$orange",
+                          "content": "RESIDENTIAL  /  LIMA, BATANGAS",
+                          "fontFamily": "$font-body",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "text",
+                          "id": "QMFOD",
+                          "name": "Project Name",
+                          "fill": "$ink",
+                          "content": "GardenCourt\nResidences",
+                          "lineHeight": 1.05,
+                          "fontFamily": "$font-display",
+                          "fontSize": 32,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "x8LG7",
+                          "name": "Project Description",
+                          "fill": "$muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reviewed drawings and specifications, enforced the MDC Quality Management System, produced Procore reports, and monitored quality plan effectiveness.",
+                          "lineHeight": 1.55,
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U6B8fw",
+                          "name": "Project Tools",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "NeBWj",
+                              "name": "QAQC Tag",
+                              "height": 28,
+                              "fill": "$pale",
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qnGu0",
+                                  "name": "QAQC Tag Text",
+                                  "fill": "$ink",
+                                  "content": "QAQC",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 9,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.7
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hq69q",
+                              "name": "PROCORE Tag",
+                              "height": 28,
+                              "fill": "$pale",
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "tSJgd",
+                                  "name": "PROCORE Tag Text",
+                                  "fill": "$ink",
+                                  "content": "PROCORE",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 9,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.7
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XW0C0",
+                              "name": "REPORTING Tag",
+                              "height": 28,
+                              "fill": "$pale",
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vEOyP",
+                                  "name": "REPORTING Tag Text",
+                                  "fill": "$ink",
+                                  "content": "REPORTING",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 9,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.7
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "O3eMjL",
+                          "name": "Project Link",
+                          "fill": "$orange",
+                          "content": "VIEW PROJECT NOTES  →",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z9vs4y",
+                  "name": "Additional Project",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$navy",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 28,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ceiLA",
+                      "name": "Additional Project Top",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u60zlp",
+                          "name": "Additional Project Number",
+                          "fill": "#FFFFFF20",
+                          "content": "02",
+                          "fontFamily": "$font-display",
+                          "fontSize": 44,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zFVX6",
+                          "name": "Additional Project Category",
+                          "fill": "$orange",
+                          "content": "RESIDENTIAL  /  2024",
+                          "fontFamily": "$font-body",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "text",
+                          "id": "o0rFw",
+                          "name": "Additional Project Title",
+                          "fill": "$white",
+                          "content": "Inspection &\nTesting Support",
+                          "lineHeight": 1.1,
+                          "fontFamily": "$font-display",
+                          "fontSize": 25,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HNTPr",
+                      "name": "Additional Project Description",
+                      "fill": "#AEBAC4",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Field inspection, technical review, and quality documentation support across residential work packages.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o6hfC9",
+          "name": "Experience and Capabilities",
+          "width": "fill_container",
+          "height": 560,
+          "fill": "$navy",
+          "gap": 64,
+          "padding": [
+            54,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Wb5OV",
+              "name": "Experience Timeline",
+              "width": 720,
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lHFCc",
+                  "name": "Experience Label",
+                  "fill": "$orange",
+                  "content": "03  /  EXPERIENCE",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.4
+                },
+                {
+                  "type": "text",
+                  "id": "UZ0tt",
+                  "name": "Experience Heading",
+                  "fill": "$white",
+                  "content": "On site. On spec.\nAlways accountable.",
+                  "lineHeight": 1.08,
+                  "fontFamily": "$font-display",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "JmRWm",
+                  "name": "Timeline",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e4I3Nv",
+                      "name": "MDC Role",
+                      "width": "fill_container",
+                      "height": 142,
+                      "stroke": "#FFFFFF26",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 22,
+                      "padding": [
+                        22,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Gj259",
+                          "name": "Job Date",
+                          "width": 128,
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JmJHT",
+                              "name": "Job Date Range",
+                              "fill": "$orange",
+                              "content": "JUL 2025 —\nPRESENT",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.8
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Jypx7",
+                          "name": "Job Details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IBMVW",
+                              "name": "Job Role",
+                              "fill": "$white",
+                              "content": "QAQC Engineer Associate",
+                              "fontFamily": "$font-display",
+                              "fontSize": 21,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "K8J9S",
+                              "name": "Job Company",
+                              "fill": "#92A0AB",
+                              "content": "Makati Development Corporation  ·  Makati, Philippines",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rj79Z",
+                              "name": "Job Summary",
+                              "fill": "#C0C9D0",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Implemented the MDC Quality Management System, monitored the Project Quality Management Plan, prepared reports, and reviewed technical drawings and specifications.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-body",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HY7eD",
+                      "name": "Education Entry",
+                      "width": "fill_container",
+                      "height": 100,
+                      "stroke": "#FFFFFF26",
+                      "strokeWidth": {
+                        "top": 1,
+                        "bottom": 1
+                      },
+                      "gap": 22,
+                      "padding": [
+                        22,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FowdJ",
+                          "name": "Education Date",
+                          "width": 128,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bC53c",
+                              "name": "Education Year",
+                              "fill": "$orange",
+                              "content": "EDUCATION",
+                              "fontFamily": "$font-body",
+                              "fontSize": 11,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.8
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qAEZr",
+                          "name": "Education Details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kUQ5q",
+                              "name": "Education Degree",
+                              "fill": "$white",
+                              "content": "Civil Engineering",
+                              "fontFamily": "$font-display",
+                              "fontSize": 19,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "u4Z1n",
+                              "name": "Education Placeholder",
+                              "fill": "#92A0AB",
+                              "content": "Degree details available in résumé",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W3PT5",
+              "name": "Capabilities",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                10,
+                0,
+                0,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XYUKr",
+                  "name": "Capabilities Label",
+                  "fill": "$orange",
+                  "content": "CORE CAPABILITIES",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.4
+                },
+                {
+                  "type": "frame",
+                  "id": "NpS3v",
+                  "name": "Quality Management",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O4o3MK",
+                      "name": "Quality Management Icon Box",
+                      "width": 42,
+                      "height": 42,
+                      "stroke": "#FFFFFF35",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "HvY2F",
+                          "name": "Quality Management Icon",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "clipboard-check",
+                          "library": "lucide",
+                          "fill": "$orange"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fAdUJ",
+                      "name": "Quality Management Text",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rvoDt",
+                          "name": "Quality Management Title",
+                          "fill": "$white",
+                          "content": "Quality Management",
+                          "fontFamily": "$font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HB7Xx",
+                          "name": "Quality Management Description",
+                          "fill": "#8F9DA8",
+                          "content": "Systems, plans, inspections",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wYI8i",
+                  "name": "Site Coordination",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cFP18",
+                      "name": "Site Coordination Icon Box",
+                      "width": 42,
+                      "height": 42,
+                      "stroke": "#FFFFFF35",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "F3cqp7",
+                          "name": "Site Coordination Icon",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "hard-hat",
+                          "library": "lucide",
+                          "fill": "$orange"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EqLDj",
+                      "name": "Site Coordination Text",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JRO3P",
+                          "name": "Site Coordination Title",
+                          "fill": "$white",
+                          "content": "Site Coordination",
+                          "fontFamily": "$font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MoWCu",
+                          "name": "Site Coordination Description",
+                          "fill": "#8F9DA8",
+                          "content": "Field teams and packages",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ttXDh",
+                  "name": "Technical Reporting",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K5tdLb",
+                      "name": "Technical Reporting Icon Box",
+                      "width": 42,
+                      "height": 42,
+                      "stroke": "#FFFFFF35",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "GaVDY",
+                          "name": "Technical Reporting Icon",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "file-chart-column",
+                          "library": "lucide",
+                          "fill": "$orange"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VaNT3",
+                      "name": "Technical Reporting Text",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DCCM7",
+                          "name": "Technical Reporting Title",
+                          "fill": "$white",
+                          "content": "Technical Reporting",
+                          "fontFamily": "$font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "p7LJP",
+                          "name": "Technical Reporting Description",
+                          "fill": "#8F9DA8",
+                          "content": "Procore and MS Office",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ci0db",
+                  "name": "Digital Delivery",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kn6E1",
+                      "name": "Digital Delivery Icon Box",
+                      "width": 42,
+                      "height": 42,
+                      "stroke": "#FFFFFF35",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "PSV40",
+                          "name": "Digital Delivery Icon",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "drafting-compass",
+                          "library": "lucide",
+                          "fill": "$orange"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q9MOH",
+                      "name": "Digital Delivery Text",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pzgzm",
+                          "name": "Digital Delivery Title",
+                          "fill": "$white",
+                          "content": "Digital Delivery",
+                          "fontFamily": "$font-display",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LAkif",
+                          "name": "Digital Delivery Description",
+                          "fill": "#8F9DA8",
+                          "content": "AutoCAD · Revit learning",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lVZY2",
+          "name": "Contact Footer",
+          "width": "fill_container",
+          "height": 260,
+          "fill": "$paper",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Uzs71",
+              "name": "Contact Main",
+              "width": "fill_container",
+              "height": 190,
+              "padding": [
+                36,
+                72
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "G8AWT",
+                  "name": "Contact Copy",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mdrZ5",
+                      "name": "Contact Label",
+                      "fill": "$orange",
+                      "content": "04  /  LET’S BUILD SOMETHING BETTER",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "W2bfM",
+                      "name": "Contact Heading",
+                      "fill": "$ink",
+                      "content": "Need an engineer who sweats the details?",
+                      "fontFamily": "$font-display",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bl8RB",
+                      "name": "Contact Location",
+                      "fill": "$muted",
+                      "content": "Based in Pasig City, Philippines  ·  Available for quality and project roles",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r7bpuS",
+                  "name": "Contact Email Button",
+                  "height": 56,
+                  "fill": "$orange",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Oi4AX",
+                      "name": "Contact Email",
+                      "fill": "$white",
+                      "content": "ESPERIDIONSAQUINGALACIO@GMAIL.COM",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.5
+                    },
+                    {
+                      "type": "icon",
+                      "id": "jFxVf",
+                      "name": "Contact Arrow",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "$white"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n2T4D",
+              "name": "Footer Bar",
+              "width": "fill_container",
+              "height": 70,
+              "stroke": "$line",
+              "strokeWidth": {
+                "top": 1
+              },
+              "padding": [
+                0,
+                72
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VwBqB",
+                  "name": "Copyright",
+                  "fill": "$muted",
+                  "content": "© 2026 ESPERIDION SAQUIN",
+                  "fontFamily": "$font-body",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "JpEhp",
+                  "name": "Footer Motto",
+                  "fill": "$ink",
+                  "content": "QUALITY  ·  COMPLIANCE  ·  DELIVERY",
+                  "fontFamily": "$font-body",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "navy": {
+      "type": "color",
+      "value": "#0B1623"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#152536"
+    },
+    "paper": {
+      "type": "color",
+      "value": "#F4F1EA"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "orange": {
+      "type": "color",
+      "value": "#F26B38"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#6E7B86"
+    },
+    "line": {
+      "type": "color",
+      "value": "#D9D5CC"
+    },
+    "pale": {
+      "type": "color",
+      "value": "#E9EEF1"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Space Grotesk"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    }
+  },
+  "fileToken": "6a2dbeac-4789-49e8-a66b-b6d3bb874098"
+}
