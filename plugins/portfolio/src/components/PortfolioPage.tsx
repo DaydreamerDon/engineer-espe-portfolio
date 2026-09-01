@@ -6,6 +6,7 @@ import { PortfolioNavigation } from './PortfolioNavigation'
 import { getPortfolioMediaURL } from './PortfolioMedia'
 import { ProjectsSection } from './ProjectsSection'
 import { TrainingSection } from './TrainingSection'
+import { ScrollToTop } from './ScrollToTop'
 
 export function PortfolioPage({ data }: { data: PortfolioData }) {
   const identity = data.identity
@@ -29,6 +30,7 @@ export function PortfolioPage({ data }: { data: PortfolioData }) {
         <ProjectsSection projects={data.projects} />
         <ExperienceSection capabilities={data.capabilities} experience={data.experience} />
         <TrainingSection training={data.training} />
+        <ScrollToTop />
       </main>
       <ContactSection contact={data.contact} identity={identity} />
     </>
