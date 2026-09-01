@@ -1,9 +1,11 @@
 build
 dist / media
 node_modules
+.pnpm-store/
 .DS_Store
 .env
 .next
+*.tsbuildinfo
 next-env.d.ts
 .vercel
 

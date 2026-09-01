@@ -1,53 +1,48 @@
 import type { Metadata } from 'next'
 
-import { cn } from '@/utilities/ui'
-import { GeistMono } from 'geist/font/mono'
-import { GeistSans } from 'geist/font/sans'
+import localFont from 'next/font/local'
 import React from 'react'
-
-import { AdminBar } from '@/components/AdminBar'
-import { Footer } from '@/Footer/Component'
-import { Header } from '@/Header/Component'
-import { Providers } from '@/providers'
-import { InitTheme } from '@/providers/Theme/InitTheme'
-import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
-import { draftMode } from 'next/headers'
 
 import './globals.css'
 import { getServerSideURL } from '@/utilities/getURL'
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const { isEnabled } = await draftMode()
+const inter = localFont({
+  display: 'swap',
+  src: './fonts/Inter-Variable.ttf',
+  variable: '--font-inter',
+  weight: '100 900',
+})
 
+const spaceGrotesk = localFont({
+  display: 'swap',
+  src: './fonts/SpaceGrotesk-Variable.ttf',
+  variable: '--font-space-grotesk',
+  weight: '300 700',
+})
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html className={cn(GeistSans.variable, GeistMono.variable)} lang="en" suppressHydrationWarning>
+    <html className={`${inter.variable} ${spaceGrotesk.variable} h-full`} lang="en">
       <head>
-        <InitTheme />
-        <link href="/favicon.ico" rel="icon" sizes="32x32" />
         <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
       </head>
-      <body>
-        <Providers>
-          <AdminBar
-            adminBarProps={{
-              preview: isEnabled,
-            }}
-          />
-
-          <Header />
-          {children}
-          <Footer />
-        </Providers>
-      </body>
+      <body className="h-full">{children}</body>
     </html>
   )
 }
 
 export const metadata: Metadata = {
   metadataBase: new URL(getServerSideURL()),
-  openGraph: mergeOpenGraph(),
+  description:
+    'Portfolio of Esperidion Saquin, a civil engineer and QAQC specialist focused on quality, compliance, and project delivery.',
+  openGraph: {
+    description:
+      'Portfolio of Esperidion Saquin, a civil engineer and QAQC specialist focused on quality, compliance, and project delivery.',
+    title: 'Esperidion Saquin | Civil Engineer & QAQC Specialist',
+    type: 'website',
+  },
+  title: 'Esperidion Saquin | Civil Engineer & QAQC Specialist',
   twitter: {
     card: 'summary_large_image',
-    creator: '@payloadcms',
   },
 }

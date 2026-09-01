@@ -1,41 +1,35 @@
-import { test, expect, Page } from '@playwright/test'
+import { expect, type Page, test } from '@playwright/test'
+
+import { cleanupTestUser, seedTestUser, testUser } from '../helpers/seedUser'
 import { login } from '../helpers/login'
-import { seedTestUser, cleanupTestUser, testUser } from '../helpers/seedUser'
 
-test.describe('Admin Panel', () => {
-  let page: Page
+test.describe('Payload admin', () => {
+  let adminPage: Page
 
-  test.beforeAll(async ({ browser }, testInfo) => {
+  test.beforeAll(async ({ browser }) => {
     await seedTestUser()
 
     const context = await browser.newContext()
-    page = await context.newPage()
-
-    await login({ page, user: testUser })
+    adminPage = await context.newPage()
+    await login({ page: adminPage, user: testUser })
   })
 
   test.afterAll(async () => {
     await cleanupTestUser()
   })
 
-  test('can navigate to dashboard', async () => {
-    await page.goto('http://localhost:3000/admin')
-    await expect(page).toHaveURL('http://localhost:3000/admin')
-    const dashboardArtifact = page.locator('span[title="Dashboard"]').first()
-    await expect(dashboardArtifact).toBeVisible()
+  test('shows only the focused portfolio content model', async () => {
+    await adminPage.goto('http://localhost:3000/admin')
+    await expect(adminPage.locator('span[title="Dashboard"]').first()).toBeVisible()
+    await expect(adminPage.getByText('Portfolio', { exact: true }).first()).toBeVisible()
+    await expect(adminPage.getByText('Posts', { exact: true })).toHaveCount(0)
+    await expect(adminPage.getByText('Pages', { exact: true })).toHaveCount(0)
   })
 
-  test('can navigate to list view', async () => {
-    await page.goto('http://localhost:3000/admin/collections/users')
-    await expect(page).toHaveURL('http://localhost:3000/admin/collections/users')
-    const listViewArtifact = page.locator('h1', { hasText: 'Users' }).first()
-    await expect(listViewArtifact).toBeVisible()
-  })
-
-  test('can navigate to edit view', async () => {
-    await page.goto('http://localhost:3000/admin/collections/pages/create')
-    await expect(page).toHaveURL(/\/admin\/collections\/pages\/[a-zA-Z0-9-_]+/)
-    const editViewArtifact = page.locator('input[name="title"]')
-    await expect(editViewArtifact).toBeVisible()
+  test('opens the editable portfolio global', async () => {
+    await adminPage.goto('http://localhost:3000/admin/globals/portfolio')
+    await expect(adminPage).toHaveURL(/\/admin\/globals\/portfolio/)
+    await expect(adminPage.getByText('Identity', { exact: true }).first()).toBeVisible()
+    await expect(adminPage.getByText('Hero & Projects', { exact: true }).first()).toBeVisible()
   })
 })
