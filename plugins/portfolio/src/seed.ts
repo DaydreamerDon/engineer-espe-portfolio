@@ -9,7 +9,7 @@ import type { PortfolioData } from './types'
 const assetDefinitions = {
   featured: {
     alt: 'Construction professional in high-visibility safety gear holding project plans',
-    filename: 'esperidion-featured-project.webp',
+    filename: 'images (1).png',
   },
   hero: {
     alt: 'High-rise residential building under construction',
