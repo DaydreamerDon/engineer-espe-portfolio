@@ -37,7 +37,7 @@ const getAssetFile = async (filename: string): Promise<File> => {
 
   return {
     data,
-    mimetype: 'image/webp',
+    mimetype: filename.endsWith('.png') ? 'image/png' : 'image/webp',
     name: filename,
     size: data.byteLength,
   }
@@ -117,6 +117,7 @@ export const seedPortfolio = async ({
     slug: 'portfolio' as GlobalSlug,
     data: {
       ...portfolioDefaults,
+      _status: 'published',
       hero: {
         ...portfolioDefaults.hero,
         image: heroImage,

@@ -18,6 +18,17 @@ pnpm dev
 
 Payload Admin is available at `/admin`. The first application initialization publishes the approved launch copy and bundled project images. Seeding is versioned and idempotent: it reuses media by filename and never overwrites editor-authored content. The optional résumé action stays hidden until a PDF is uploaded.
 
+## Supabase storage and remote seeding
+
+Set `DATABASE_URL` to the remote PostgreSQL connection and configure all five storage settings from `.env.example`: `S3_BUCKET`, `S3_ENDPOINT`, `S3_REGION`, `S3_ACCESS_KEY_ID`, and `S3_SECRET_ACCESS_KEY`. Keep storage credentials server-only. Set the same settings in Vercel, along with `PAYLOAD_SECRET` and the deployed `NEXT_PUBLIC_SERVER_URL`.
+
+```bash
+pnpm db:migrate
+pnpm db:seed
+```
+
+The seed publishes the portfolio copy and uploads bundled images and generated sizes to Supabase Storage. It skips already seeded or editor-authored content. Files are served through Payload's `/api/media/file/` route; the bucket does not need public access. Deploy the updated code for the hosted site to use the storage adapter. With no S3 settings, local development continues to use local media storage.
+
 ## Portfolio plugin
 
 The host app registers the plugin in `src/payload.config.ts`:

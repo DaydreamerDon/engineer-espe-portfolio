@@ -1,4 +1,5 @@
 import { postgresAdapter } from '@payloadcms/db-postgres'
+import { s3Storage } from '@payloadcms/storage-s3'
 import { portfolioPlugin } from '@esperidion/payload-plugin-portfolio'
 import sharp from 'sharp'
 import path from 'path'
@@ -11,6 +12,19 @@ import { getServerSideURL } from './utilities/getURL'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
+
+const storageKeys = [
+  'S3_BUCKET',
+  'S3_ENDPOINT',
+  'S3_REGION',
+  'S3_ACCESS_KEY_ID',
+  'S3_SECRET_ACCESS_KEY',
+] as const
+const storageEnabled = storageKeys.some((key) => Boolean(process.env[key]))
+if (storageEnabled) {
+  const missing = storageKeys.filter((key) => !process.env[key])
+  if (missing.length) throw new Error(`Missing storage settings: ${missing.join(', ')}`)
+}
 
 export default buildConfig({
   admin: {
@@ -54,6 +68,20 @@ export default buildConfig({
   collections: [Users, Media],
   cors: [getServerSideURL()].filter(Boolean),
   plugins: [
+    s3Storage({
+      enabled: storageEnabled,
+      collections: { media: true },
+      bucket: process.env.S3_BUCKET || '',
+      config: {
+        endpoint: process.env.S3_ENDPOINT,
+        region: process.env.S3_REGION,
+        forcePathStyle: true,
+        credentials: {
+          accessKeyId: process.env.S3_ACCESS_KEY_ID || '',
+          secretAccessKey: process.env.S3_SECRET_ACCESS_KEY || '',
+        },
+      },
+    }),
     portfolioPlugin({
       mediaCollection: 'media',
       previewURL: (() => {

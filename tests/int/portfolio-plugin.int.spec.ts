@@ -64,9 +64,17 @@ describe('portfolio plugin', () => {
 
     expect(incomingOnInit).toHaveBeenCalledOnce()
     expect(create).toHaveBeenCalledTimes(2)
+    expect(create).toHaveBeenCalledWith(
+      expect.objectContaining({
+        file: expect.objectContaining({ name: 'images (1).png', mimetype: 'image/png' }),
+      }),
+    )
     expect(updateGlobal).toHaveBeenCalledWith(
       expect.objectContaining({
-        data: expect.objectContaining({ seedVersion: PORTFOLIO_SEED_VERSION }),
+        data: expect.objectContaining({
+          seedVersion: PORTFOLIO_SEED_VERSION,
+          _status: 'published',
+        }),
         draft: false,
         slug: 'portfolio',
       }),
