@@ -10,6 +10,7 @@
     "db:migrate": "cross-env NODE_OPTIONS=--no-deprecation payload migrate",
     "db:migrate:create": "cross-env NODE_OPTIONS=--no-deprecation payload migrate:create",
     "db:seed": "cross-env NODE_ENV=production NODE_OPTIONS=--no-deprecation payload run ./scripts/seed.ts",
+    "media:verify": "cross-env NODE_ENV=production NODE_OPTIONS=--no-deprecation payload run ./scripts/verify-media.ts",
     "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
     "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
     "lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",

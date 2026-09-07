@@ -7,6 +7,7 @@ import { portfolioPlugin } from '../../plugins/portfolio/src/index'
 import { PortfolioPage } from '../../plugins/portfolio/src/exports/rsc'
 import { portfolioDefaults, PORTFOLIO_SEED_VERSION } from '../../plugins/portfolio/src/defaults'
 import { PortfolioIcon } from '../../plugins/portfolio/src/components/PortfolioIcon'
+import { PortfolioImage } from '../../plugins/portfolio/src/components/PortfolioMedia'
 import type { PortfolioData } from '../../plugins/portfolio/src/types'
 
 const createConfig = (overrides: Partial<Config> = {}): Config =>
@@ -17,6 +18,21 @@ const createConfig = (overrides: Partial<Config> = {}): Config =>
   }) as Config
 
 describe('portfolio plugin', () => {
+  it('serves Payload images directly without the Vercel optimizer route', () => {
+    const markup = renderToStaticMarkup(
+      createElement(PortfolioImage, {
+        alt: 'Project',
+        className: 'object-cover',
+        media: { id: 1, url: '/api/media/file/images%20(1)-2.png' },
+        sizes: '100vw',
+      }),
+    )
+
+    expect(markup).toContain('src="/api/media/file/images%20(1)-2.png"')
+    expect(markup).not.toContain('/_next/image')
+    expect(markup).toContain('loading="lazy"')
+  })
+
   it('registers the portfolio global and preserves incoming config', async () => {
     const existingGlobal = { fields: [], slug: 'settings' }
     const transformed = await portfolioPlugin({ mediaCollection: 'media' })(
