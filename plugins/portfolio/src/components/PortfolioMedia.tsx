@@ -40,6 +40,9 @@ export function PortfolioImage({
       priority={priority}
       sizes={sizes}
       src={src}
+      // Serve Payload media directly: the deployed /_next/image launcher fails
+      // for these API-backed images. Keep Next's layout and loading behavior.
+      unoptimized={src.startsWith('/api/media/file/')}
     />
   )
 }

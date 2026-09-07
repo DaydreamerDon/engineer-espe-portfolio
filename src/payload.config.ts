@@ -62,6 +62,12 @@ export default buildConfig({
     migrationDir: path.resolve(dirname, 'migrations'),
     pool: {
       connectionString: process.env.DATABASE_URL || '',
+      // Each serverless instance gets its own pool. Use Supabase's transaction
+      // pooler (port 6543) on Vercel and keep the per-instance footprint small.
+      // Do not use max: 1: this adapter reserves a connection during initialization.
+      max: 3,
+      idleTimeoutMillis: 5000,
+      connectionTimeoutMillis: 10000,
     },
     push: false,
   }),
