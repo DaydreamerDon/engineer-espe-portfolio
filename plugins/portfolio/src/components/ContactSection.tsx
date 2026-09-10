@@ -1,6 +1,5 @@
-import { ArrowUpRight } from 'lucide-react'
-
 import type { PortfolioData } from '../types'
+import { ContactForm } from './ContactForm'
 
 export function ContactSection({
   contact,
@@ -9,31 +8,30 @@ export function ContactSection({
   contact: PortfolioData['contact']
   identity: PortfolioData['identity']
 }) {
+  const heading =
+    !contact?.heading || contact.heading === 'Need an engineer who sweats the details?'
+      ? 'Let’s discuss your next project.'
+      : contact.heading
+
   return (
     <footer
       className="scroll-mt-[72px] bg-[var(--portfolio-navy)] text-white lg:scroll-mt-[88px]"
       id="contact"
     >
-      <div className="mx-auto flex min-h-[190px] max-w-[1440px] flex-col justify-center gap-8 px-6 py-12 sm:px-10 lg:flex-row lg:items-center lg:justify-between lg:px-[72px] lg:py-8">
-        <div>
+      <div className="mx-auto grid min-h-[360px] max-w-[1440px] items-center gap-8 px-6 py-9 sm:px-10 lg:grid-cols-[minmax(0,500px)_minmax(0,620px)] lg:justify-between lg:gap-12 lg:px-[72px]">
+        <div className="max-w-[500px]">
           <p className="text-[11px] font-bold tracking-[0.08em] text-[var(--portfolio-orange)]">
             {contact?.eyebrow}
           </p>
-          <h2 className="font-display mt-4 text-[clamp(1.75rem,4vw,2.125rem)] font-bold leading-[1.08] tracking-[-0.035em]">
-            {contact?.heading}
+          <h2 className="font-display mt-2 text-[clamp(1.75rem,4vw,2.125rem)] font-bold leading-[1.2]">
+            {heading}
           </h2>
-          <p className="mt-4 text-[12px] text-[var(--portfolio-meta-light)] sm:text-[13px]">
+          <p className="mt-2 text-[12px] leading-[1.5] text-[#9eabb5] sm:text-[13px]">
             {contact?.subheading}
           </p>
         </div>
 
-        <a
-          className="portfolio-focus flex min-h-[56px] max-w-full items-center justify-between gap-5 bg-[var(--portfolio-orange)] px-6 text-[10px] font-bold tracking-[0.06em] text-white transition-colors hover:bg-white hover:text-[var(--portfolio-navy)] sm:px-8 sm:text-[11px]"
-          href={`mailto:${identity?.email ?? ''}`}
-        >
-          <span className="break-all">{identity?.email}</span>
-          <ArrowUpRight aria-hidden="true" className="size-[18px] shrink-0" />
-        </a>
+        {identity?.email ? <ContactForm email={identity.email} /> : null}
       </div>
 
       <div className="border-t border-white/10">

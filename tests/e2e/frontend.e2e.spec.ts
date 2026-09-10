@@ -11,6 +11,10 @@ test.describe('Portfolio frontend', () => {
       page.getByRole('heading', { name: 'Quality delivery in active construction.' }),
     ).toBeVisible()
     await expect(page.getByRole('heading', { name: 'Training & certifications' })).toBeVisible()
+    await expect(
+      page.getByRole('heading', { name: 'Let’s discuss your next project.' }),
+    ).toBeVisible()
+    await expect(page.getByRole('form', { name: 'SEND A DIRECT MESSAGE' })).toBeVisible()
     await expect(page.locator('a[href^="mailto:"]').last()).toContainText(
       'ESPERIDIONSAQUINGALACIO@GMAIL.COM',
     )
@@ -23,6 +27,9 @@ test.describe('Portfolio frontend', () => {
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth,
     )
     expect(horizontalOverflow).toBe(false)
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }))
+    await page.screenshot({ path: 'test-results/portfolio-desktop.png', fullPage: true })
+    await page.locator('#contact').screenshot({ path: 'test-results/portfolio-contact.png' })
   })
 
   test('provides an accessible mobile menu without overflow', async ({ page }) => {
@@ -47,6 +54,8 @@ test.describe('Portfolio frontend', () => {
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth,
     )
     expect(horizontalOverflow).toBe(false)
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }))
+    await page.screenshot({ path: 'test-results/portfolio-mobile.png', fullPage: true })
   })
 
   test('stacks the portfolio cleanly at tablet width', async ({ page }) => {
@@ -63,5 +72,22 @@ test.describe('Portfolio frontend', () => {
       () => document.documentElement.scrollWidth > document.documentElement.clientWidth,
     )
     expect(horizontalOverflow).toBe(false)
+    await page.screenshot({ path: 'test-results/portfolio-tablet.png', fullPage: true })
+  })
+
+  test('requires contact details before preparing an email', async ({ page }) => {
+    await page.goto('/', { waitUntil: 'domcontentloaded' })
+    const form = page.getByRole('form', { name: 'SEND A DIRECT MESSAGE' })
+    await form.getByRole('button', { name: 'SEND MESSAGE' }).click()
+    await expect(form.getByLabel('YOUR NAME')).toBeFocused()
+    await expect(form.getByRole('status')).toBeEmpty()
+
+    await form.getByLabel('YOUR NAME').fill('Jane Smith')
+    await form.getByLabel('EMAIL ADDRESS').fill('invalid-email')
+    await form.getByLabel('PROJECT OR OPPORTUNITY').fill('A new construction project')
+    await form.getByLabel('YOUR MESSAGE').fill('I would like to discuss quality inspections.')
+    await form.getByRole('button', { name: 'SEND MESSAGE' }).click()
+    await expect(form.getByLabel('EMAIL ADDRESS')).toBeFocused()
+    await expect(form.getByRole('status')).toBeEmpty()
   })
 })

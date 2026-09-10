@@ -10,7 +10,7 @@ export function ExperienceSection({
 }) {
   return (
     <section
-      className="scroll-mt-[72px] bg-[var(--portfolio-navy)] py-12 text-white lg:scroll-mt-[88px]"
+      className="scroll-mt-[72px] bg-[var(--portfolio-navy)] py-12 text-white lg:scroll-mt-[88px] xl:min-h-[700px]"
       id="experience"
     >
       <div className="mx-auto grid max-w-[1440px] gap-16 px-6 sm:px-10 lg:px-[72px] xl:grid-cols-[minmax(0,760px)_minmax(0,480px)] xl:gap-14">
@@ -18,28 +18,28 @@ export function ExperienceSection({
           <p className="text-[11px] font-bold tracking-[0.08em] text-[var(--portfolio-orange)]">
             03&nbsp; / &nbsp;EXPERIENCE
           </p>
-          <h2 className="font-display mt-5 whitespace-pre-line text-[clamp(2.25rem,4vw,2.375rem)] font-bold leading-[1.08] tracking-[-0.035em]">
+          <h2 className="font-display mt-6 whitespace-pre-line text-[clamp(2.25rem,4vw,2.375rem)] font-bold leading-[1.08]">
             {experience?.heading}
           </h2>
 
           <div className="mt-6">
             {experience?.entries?.map((entry) => (
               <article
-                className="grid gap-5 border-t border-white/10 py-6 sm:grid-cols-[132px_1fr]"
+                className={`grid gap-[18px] border-t border-white/15 py-5 last:border-b sm:grid-cols-[112px_minmax(0,1fr)] ${entry.kind === 'education' ? 'sm:min-h-[90px]' : 'sm:min-h-[150px]'}`}
                 key={entry.id ?? `${entry.dateRange}-${entry.title}`}
               >
                 <p className="whitespace-pre-line text-[10px] font-bold leading-[1.45] tracking-[0.06em] text-[var(--portfolio-orange)] sm:text-[11px]">
                   {entry.dateRange}
                 </p>
                 <div>
-                  <h3 className="font-display text-[20px] font-bold tracking-[-0.02em] sm:text-[21px]">
+                  <h3 className="font-display text-[20px] font-bold sm:text-[21px]">
                     {entry.title}
                   </h3>
                   <p className="mt-2 text-[11px] font-semibold text-[var(--portfolio-meta-light)] sm:text-[12px]">
                     {entry.company}
                   </p>
                   {entry.summary ? (
-                    <p className="mt-3 max-w-[570px] text-[11px] leading-[1.55] text-[var(--portfolio-light-copy)]">
+                    <p className="mt-[7px] text-[11px] leading-[1.5] text-[#c0c9d0]">
                       {entry.summary}
                     </p>
                   ) : null}
@@ -49,20 +49,19 @@ export function ExperienceSection({
           </div>
         </div>
 
-        <aside>
+        <aside className="min-w-0 xl:pl-4 xl:pt-1">
           <p className="text-[11px] font-bold tracking-[0.08em] text-[var(--portfolio-orange)]">
             CORE CAPABILITIES
           </p>
-          <div className="mt-4">
+          <div className="mt-[18px] space-y-[18px]">
             {capabilities?.items?.map((item) => (
-              <div
-                className="flex items-center gap-4 border-b border-white/10 py-[14px]"
-                key={item.id ?? item.title}
-              >
-                <PortfolioIcon
-                  className="size-[19px] shrink-0 text-[var(--portfolio-orange)]"
-                  name={item.icon}
-                />
+              <div className="flex items-center gap-4" key={item.id ?? item.title}>
+                <span className="flex size-[42px] shrink-0 items-center justify-center border border-white/20">
+                  <PortfolioIcon
+                    className="size-[19px] text-[var(--portfolio-orange)]"
+                    name={item.icon}
+                  />
+                </span>
                 <div>
                   <h3 className="font-display text-[16px] font-bold">{item.title}</h3>
                   <p className="mt-1 text-[11px] text-[var(--portfolio-meta-light)]">
@@ -73,7 +72,7 @@ export function ExperienceSection({
             ))}
           </div>
 
-          <div className="mt-5 border-b border-white/10 pb-6">
+          <div className="mt-[18px] border-t border-white/15 pt-[22px]">
             <p className="text-[10px] font-bold tracking-[0.08em] text-[var(--portfolio-orange)]">
               TOOLS &amp; WORKFLOW
             </p>
@@ -89,7 +88,7 @@ export function ExperienceSection({
             </div>
           </div>
 
-          <div className="mt-5 bg-white/5 p-5">
+          <div className="mt-[18px] border border-white/10 bg-white/5 p-5">
             <p className="text-[10px] font-bold tracking-[0.08em] text-[var(--portfolio-orange)]">
               PROJECT EXPOSURE
             </p>
