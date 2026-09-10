@@ -2415,7 +2415,7 @@
           "id": "lVZY2",
           "name": "Contact Footer",
           "width": "fill_container",
-          "height": 260,
+          "height": 430,
           "fill": "#0B1623",
           "layout": "vertical",
           "children": [
@@ -2424,7 +2424,7 @@
               "id": "Uzs71",
               "name": "Contact Main",
               "width": "fill_container",
-              "height": 190,
+              "height": 360,
               "fill": "#0B1623",
               "padding": [
                 36,
@@ -2437,6 +2437,7 @@
                   "type": "frame",
                   "id": "G8AWT",
                   "name": "Contact Copy",
+                  "width": 500,
                   "layout": "vertical",
                   "gap": 8,
                   "children": [
@@ -2456,7 +2457,9 @@
                       "id": "W2bfM",
                       "name": "Contact Heading",
                       "fill": "#FFFFFF",
-                      "content": "Need an engineer who sweats the details?",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Let’s discuss your next project.",
                       "fontFamily": "$font-display",
                       "fontSize": 34,
                       "fontWeight": "700"
@@ -2466,7 +2469,10 @@
                       "id": "Bl8RB",
                       "name": "Contact Location",
                       "fill": "#9EABB5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
                       "content": "Based in Pasig City, Philippines  ·  Available for quality and project roles",
+                      "lineHeight": 1.5,
                       "fontFamily": "$font-body",
                       "fontSize": 13,
                       "fontWeight": "normal"
@@ -2476,36 +2482,358 @@
                 {
                   "type": "frame",
                   "id": "r7bpuS",
-                  "name": "Contact Email Button",
-                  "height": 56,
-                  "fill": "$orange",
-                  "gap": 14,
-                  "padding": [
-                    0,
-                    24
-                  ],
-                  "alignItems": "center",
+                  "name": "Direct Contact Form",
+                  "width": 620,
+                  "height": 288,
+                  "fill": "$white",
+                  "stroke": "#FFFFFF22",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "Oi4AX",
-                      "name": "Contact Email",
-                      "fill": "$white",
-                      "content": "ESPERIDIONSAQUINGALACIO@GMAIL.COM",
-                      "fontFamily": "$font-body",
-                      "fontSize": 11,
-                      "fontWeight": "700",
-                      "letterSpacing": 0.5
+                      "type": "frame",
+                      "id": "PhNIN",
+                      "name": "Contact Form Header",
+                      "width": "fill_container",
+                      "height": 30,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nGRzh",
+                          "name": "Contact Form Heading",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IdvBA",
+                              "name": "Contact Form Title",
+                              "fill": "$ink",
+                              "content": "SEND A DIRECT MESSAGE",
+                              "fontFamily": "$font-body",
+                              "fontSize": 10,
+                              "fontWeight": "800",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "OAEsg",
+                              "name": "Contact Form Subtitle",
+                              "fill": "$muted",
+                              "content": "I’ll respond directly to the email you provide.",
+                              "fontFamily": "$font-body",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "type": "icon",
-                      "id": "jFxVf",
-                      "name": "Contact Arrow",
-                      "width": 18,
-                      "height": 18,
-                      "icon": "arrow-up-right",
-                      "library": "lucide",
-                      "fill": "$white"
+                      "type": "frame",
+                      "id": "Zmfe4",
+                      "name": "Sender Contact Fields",
+                      "width": "fill_container",
+                      "height": 42,
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "jBc0o",
+                          "name": "Your name Field",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$paper",
+                          "stroke": "$line",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            6,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ru9nC",
+                              "name": "Your name Icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "user",
+                              "library": "lucide",
+                              "fill": "$muted"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TzZoF",
+                              "name": "Your name Input Copy",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "TC5G2",
+                                  "name": "Your name Label",
+                                  "fill": "$muted",
+                                  "content": "YOUR NAME",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 7,
+                                  "fontWeight": "800",
+                                  "letterSpacing": 0.5
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Hle0J",
+                                  "name": "Your name Placeholder",
+                                  "fill": "$ink",
+                                  "content": "e.g. Maria Santos",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 9.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pPHG5",
+                          "name": "Email address Field",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$paper",
+                          "stroke": "$line",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            6,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ANUu3",
+                              "name": "Email address Icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "mail",
+                              "library": "lucide",
+                              "fill": "$muted"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rgkQK",
+                              "name": "Email address Input Copy",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QoKie",
+                                  "name": "Email address Label",
+                                  "fill": "$muted",
+                                  "content": "EMAIL ADDRESS",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 7,
+                                  "fontWeight": "800",
+                                  "letterSpacing": 0.5
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "xEdoE",
+                                  "name": "Email address Placeholder",
+                                  "fill": "$ink",
+                                  "content": "you@company.com",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 9.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J3iE96",
+                      "name": "Message Subject Field",
+                      "width": "fill_container",
+                      "height": 42,
+                      "fill": "$paper",
+                      "stroke": "$line",
+                      "strokeWidth": 1,
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j3bIMB",
+                          "name": "Subject Icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "briefcase-business",
+                          "library": "lucide",
+                          "fill": "$muted"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xpp6r",
+                          "name": "Subject Input Copy",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JAOUF",
+                              "name": "Subject Label",
+                              "fill": "$muted",
+                              "content": "PROJECT OR OPPORTUNITY",
+                              "fontFamily": "$font-body",
+                              "fontSize": 7,
+                              "fontWeight": "800",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "Z3ylU4",
+                              "name": "Subject Placeholder",
+                              "fill": "$ink",
+                              "content": "What would you like to discuss?",
+                              "fontFamily": "$font-body",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VK4CU",
+                      "name": "Message Field",
+                      "width": "fill_container",
+                      "height": 70,
+                      "fill": "$paper",
+                      "stroke": "$line",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 5,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nAaMt",
+                          "name": "Message Label",
+                          "fill": "$muted",
+                          "content": "YOUR MESSAGE",
+                          "fontFamily": "$font-body",
+                          "fontSize": 7,
+                          "fontWeight": "800",
+                          "letterSpacing": 0.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "ao2Wq",
+                          "name": "Message Placeholder",
+                          "fill": "#87919A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tell me about your project, role, timeline, or how I can help…",
+                          "lineHeight": 1.35,
+                          "fontFamily": "$font-body",
+                          "fontSize": 9.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PQP4F",
+                      "name": "Contact Form Actions",
+                      "width": "fill_container",
+                      "height": 40,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "v8nOq",
+                          "name": "Email Recipient",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "aZmBr",
+                              "name": "Recipient Icon",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "at-sign",
+                              "library": "lucide",
+                              "fill": "$muted"
+                            },
+                            {
+                              "type": "text",
+                              "id": "pyfi6",
+                              "name": "Recipient Address",
+                              "fill": "$muted",
+                              "content": "esperidionsaquingalacio@gmail.com",
+                              "fontFamily": "$font-body",
+                              "fontSize": 8.5,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "x2WfO",
+                          "name": "Send Message Button",
+                          "height": 40,
+                          "fill": "$orange",
+                          "gap": 9,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "STTo6",
+                              "name": "Send Message Label",
+                              "fill": "$white",
+                              "content": "SEND MESSAGE",
+                              "fontFamily": "$font-body",
+                              "fontSize": 9,
+                              "fontWeight": "800",
+                              "letterSpacing": 0.8
+                            },
+                            {
+                              "type": "icon",
+                              "id": "u7Jpb",
+                              "name": "Send Message Icon",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "send",
+                              "library": "lucide",
+                              "fill": "$white"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }

@@ -148,7 +148,7 @@ export const portfolioDefaults: PortfolioData = {
   contact: {
     eyebrow: '05  /  LET’S BUILD SOMETHING BETTER',
     footerMotto: 'QUALITY  ·  COMPLIANCE  ·  DELIVERY',
-    heading: 'Need an engineer who sweats the details?',
+    heading: 'Let’s discuss your next project.',
     subheading: 'Based in Pasig City, Philippines  ·  Available for quality and project roles',
   },
   seo: {

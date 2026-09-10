@@ -51,6 +51,47 @@
       0 0 0 3px var(--portfolio-paper),
       0 0 0 6px var(--portfolio-orange);
   }
+
+  .portfolio-contact-field {
+    display: flex;
+    min-height: 42px;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--portfolio-line);
+    background: var(--portfolio-paper);
+    padding: 6px 10px;
+  }
+
+  .portfolio-contact-field:focus-within {
+    outline: 2px solid var(--portfolio-orange);
+    outline-offset: 1px;
+  }
+
+  .portfolio-contact-label {
+    display: block;
+    color: var(--portfolio-muted);
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+  }
+
+  .portfolio-contact-field input,
+  .portfolio-contact-field textarea {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    background: transparent;
+    color: var(--portfolio-ink);
+    font-size: 12px;
+    line-height: 1.35;
+    outline: none;
+  }
+
+  .portfolio-contact-field input::placeholder,
+  .portfolio-contact-field textarea::placeholder {
+    color: var(--portfolio-muted);
+    opacity: 1;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
